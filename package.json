@@ -1,7 +1,7 @@
 {
   "name": "bedrock-api",
   "version": "0.1.0",
-  "description": "bedrock-console",
+  "description": "bedrock-api",
   "main": "index.js",
   "scripts": {
     "start": "node ./app.js",
@@ -11,14 +11,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/LomotHo/bedrock-console.git"
+    "url": "git+https://github.com/LomotHo/bedrock-api.git"
   },
   "author": "lomot",
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/LomotHo/bedrock-console/issues"
+    "url": "https://github.com/LomotHo/bedrock-api/issues"
   },
-  "homepage": "https://github.com/LomotHo/bedrock-console#readme",
+  "homepage": "https://github.com/LomotHo/bedrock-api#readme",
   "_moduleAliases": {
     "@root": "."
   },
