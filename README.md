@@ -1,6 +1,6 @@
 # bedrock-api
 
-version: 0.1.1, 当前版本功能较少，不支持返回数据
+version: 0.1.2, 当前版本功能较少，不支持返回数据
 ## 运行
 ```
 // 1. clone项目
@@ -10,6 +10,7 @@ git clone https://github.com/LomotHo/bedrock-api.git && cd bedrock-api
 mkdir bedrock && unzip bedrock-server-1.xx.xx.xx.zip
 
 // 3.运行（要先安装nodejs）
+npm i
 node app.js
 ```
 
