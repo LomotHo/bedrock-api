@@ -14,5 +14,8 @@ module.exports = {
   'GET /api/v1/sendcmd': async (ctx, next) => {
     console.log(ctx.query.cmd);
     writeCmd(bedrockProcess, ctx.query.cmd);
+    ctx.rest({
+      "status": "OK"
+    });
   }
 }

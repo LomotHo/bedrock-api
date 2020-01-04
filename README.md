@@ -2,6 +2,7 @@
 
 version: 0.1.2, 当前版本功能较少，不支持返回数据
 ## 运行
+### 直接运行
 ```
 // 1. clone项目
 git clone https://github.com/LomotHo/bedrock-api.git && cd bedrock-api
@@ -13,6 +14,15 @@ mkdir bedrock && unzip bedrock-server-1.xx.xx.xx.zip
 npm i
 node app.js
 ```
+### docker
+```
+docker run -d --restart=always --name=mcpe-api --net=host \
+  -v /opt/mcpe-data:/server/bedrock \
+  lomot/minecraft-bedrock:base-api
+```
+
+注意: 服务端数据文件夹/opt/mcpe-data需要包括完整的服务器文件才能运行, 第一次配置建议从官方网站下载并解压[Minecraft服务端下载]
+
 
 ## 配置
 #### 配置文件是config/index.js，当前可用项目：
