@@ -1,3 +1,5 @@
+[Minecraft服务端下载]:https://minecraft.net/en-us/download/server/bedrock/
+
 # bedrock-api
 
 version: 0.1.3, 当前版本功能较少，不支持返回数据
