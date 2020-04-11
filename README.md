@@ -2,7 +2,9 @@
 
 # bedrock-api
 
-version: 0.1.3, 当前版本功能较少，不支持返回数据
+## 注意
+本项目的所有功能已经包含在[bedrock-console](https://github.com/LomotHo/bedrock-console)项目中了，因此本项目将不再维护。
+
 ## 运行
 ### 直接运行
 ```
@@ -34,7 +36,21 @@ docker run -d --restart=always --name=mcpe-api --net=host \
 ## api列表
 
 #### GET /api/v1/sendcmd
- - 用法: ```GET www.xx.xx:3000/api/v1/sendcmd?cmd=xxxx```, 
+ - 用法: ```GET www.xx.xx:3000/api/v1/sendcmd?cmd=xxxx```
  - 示例: 
   - list: ```GET www.xx.xx:3000/api/v1/sendcmd?cmd=list```, (暂时不能返回数据)
   - op: ```GET www.xx.xx:3000/api/v1/sendcmd?cmd=op%20"lomot%20coyote"``` cmd后面的参数需要编码，原命令为```op "lomot coyote"```
+
+
+## 关联项目
+### LomotHo/minecraft-bedrock
+使用docker包装的bsd服务器，快速部署
+https://github.com/LomotHo/minecraft-bedrock
+
+### LomotHo/bedrock-console
+使用Nodejs实现的Minecraft Bedrock服务器的web控制台，同时支持使用http接口向后台发送命令。
+https://github.com/LomotHo/bedrock-console
+
+### LomotHo/bedrock-webconsole—ui
+bedrock-console项目的web界面
+https://github.com/LomotHo/bedrock-webconsole—ui
