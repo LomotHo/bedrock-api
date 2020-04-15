@@ -43,14 +43,11 @@ docker run -d --restart=always --name=mcpe-api --net=host \
 
 
 ## 关联项目
-### LomotHo/minecraft-bedrock
+### [LomotHo/minecraft-bedrock](https://github.com/LomotHo/minecraft-bedrock)
 使用docker包装的bsd服务器，快速部署
-https://github.com/LomotHo/minecraft-bedrock
 
-### LomotHo/bedrock-console
+### [LomotHo/bedrock-console](https://github.com/LomotHo/bedrock-console)
 使用Nodejs实现的Minecraft Bedrock服务器的web控制台，同时支持使用http接口向后台发送命令。
-https://github.com/LomotHo/bedrock-console
 
-### LomotHo/bedrock-webconsole—ui
+### [LomotHo/bedrock-webconsole-ui](https://github.com/LomotHo/bedrock-webconsole-ui)
 bedrock-console项目的web界面
-https://github.com/LomotHo/bedrock-webconsole—ui
